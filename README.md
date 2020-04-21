@@ -4,8 +4,8 @@
 [![standard-readme compliant](https://img.shields.io/badge/Project-51job-brightgreen.svg?style=flat-square)](https://github.com/ra1nv/Python-InternetWormDataVisualization)
 
 ## 项目预览
-![image](https://github.com/ra1nv/Python-InternetWormDataVisualization/tree/master/Img/home.png)
-![image](https://github.com/ra1nv/Python-InternetWormDataVisualization/tree/master/Img/info.png)
-![image](https://github.com/ra1nv/Python-InternetWormDataVisualization/tree/master/Img/area.png)
-![image](https://github.com/ra1nv/Python-InternetWormDataVisualization/tree/master/Img/salary.png)
-![image](https://github.com/ra1nv/Python-InternetWormDataVisualization/tree/master/Img/wordtree.png)
+![image](https://github.com/ra1nv/Python-InternetWormDataVisualization/blob/master/Img/home.png)
+![image](https://github.com/ra1nv/Python-InternetWormDataVisualization/blob/master/Img/info.png)
+![image](https://github.com/ra1nv/Python-InternetWormDataVisualization/blob/master/Img/area.png)
+![image](https://github.com/ra1nv/Python-InternetWormDataVisualization/blob/master/Img/salary.png)
+![image](https://github.com/ra1nv/Python-InternetWormDataVisualization/blob/master/Img/wordtree.png)
