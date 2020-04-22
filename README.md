@@ -7,7 +7,7 @@
 - [摘要](#摘要)
 - [准备工作](#准备工作)
 - [获取数据](#获取数据)
-- [](#)
+- [解析内容](#解析内容)
 - [](#)
 
 
@@ -22,7 +22,7 @@
 本项目网络爬虫阶段主要使用BeautifulSoup、re、urllib、sqlite3四个库
 ### 页面分析
 在[51job](https://www.51job.com/)搜索Python并且地区选择广州后进入搜索结果界面，网址格式为  https://search.51job.com/list/030200,000000,0000,00,9,99,Python,2,{x}.html<br>
-其中{x}代表当前页数（从1开始）
+其中{x}代表当前页数（从1开始）。
 
 ## 获取数据
 使用urllib库获取页面，在函数里面添加响应头，模拟浏览器访问。
@@ -46,7 +46,8 @@ def askUrl(url):
 ```
 
 ## 解析内容
-在搜索结果页面，我们要获取每个职位具体信息的超链接存于列表中
+### 获取详情页网址
+在搜索结果页面，我们需要的每个详情页超链接都在一个\<div\>的标签中，该标签的的属性为class="dw_table"。使用css选择器定位标签，，获取每个职位具体信息的超链接存于列表中。
 
 ## 项目预览
 ![image](https://github.com/ra1nv/Python-InternetWormDataVisualization/blob/master/Img/home.png)
