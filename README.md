@@ -47,7 +47,7 @@ def askUrl(url):
 
 ## 解析内容
 ### 获取详情页网址
-在搜索结果页面，我们需要的每个详情页超链接都在一个\<div\>的标签中，该标签的的属性为class="dw_table"。使用css选择器定位标签，，获取每个职位具体信息的超链接存于列表中。
+在搜索结果页面，我们需要的每个详情页超链接都在一个\<div\>的标签中，该标签的的属性为class="dw_table"。使用css选择器定位标签，对字符串正则提取，获取每个职位具体信息的超链接存于列表中。
 
 ## 项目预览
 ![image](https://github.com/ra1nv/Python-InternetWormDataVisualization/blob/master/Img/home.png)
